@@ -1,0 +1,15 @@
+id: dlverilog_> TOP <_verilog
+label: dlVerilog > TOP <
+category: '[dlverilog]'
+
+templates:
+  imports: from gnuradio import dlverilog
+  make: dlverilog.base_verilog("> SO_FILE <")
+
+inputs:
+# > INPUTS < #
+
+outputs:
+# > OUTPUTS < #
+
+file_format: 1
